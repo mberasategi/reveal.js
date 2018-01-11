@@ -37,7 +37,9 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
 .reveal p.subtitle {
   font-family: "Frutiger LT Std", "Montserrat", "Source Sans Pro", Helvetica, sans-serif;
-  color: #2a76dd;
+  color: #2a76dd; }
+
+section#title-slide {
   text-align: center; }
 
 /*********************************************
