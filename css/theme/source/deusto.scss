@@ -44,7 +44,7 @@ section.has-dark-background {
 	}
 }
 
-.reveal h1, .reveal h2 { background-color: $linkColor; color: #fff !important; }
+.reveal h1, .reveal h2 { background-color: $accentColor; color: #fff !important; }
 
 .reveal h1 { padding-top:2em; text-align:center; }
 
@@ -55,6 +55,8 @@ section.has-dark-background {
 .static .bottomL { position:absolute;bottom:0; }
 .static .bottomR { position:absolute;bottom:0;right:0;text-align:right;font-size:.35em;font-style:italic; color:#666; }
 
+
+p.subtitle { font-family:$headingFont; color:#fff; text-align:center; background-color:$accentColor; margin:0; padding: 20px 0; }
 
 // Theme template ------------------------------
 @import "../template/theme";
