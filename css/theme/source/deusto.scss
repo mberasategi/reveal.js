@@ -56,7 +56,7 @@ section.has-dark-background {
 .static .bottomR { position:absolute;bottom:0;right:0;text-align:right;font-size:.35em;font-style:italic; color:#666; }
 
 
-p.subtitle { font-family:$headingFont; color:#fff; text-align:center; background-color:$accentColor; margin:0; padding: 20px 0; }
+.reveal p.subtitle { font-family:$headingFont; color:$accentColor; text-align:center; }
 
 // Theme template ------------------------------
 @import "../template/theme";

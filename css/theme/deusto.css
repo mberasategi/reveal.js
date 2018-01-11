@@ -35,13 +35,10 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   font-style: italic;
   color: #666; }
 
-p.subtitle {
+.reveal p.subtitle {
   font-family: "Frutiger LT Std", "Montserrat", "Source Sans Pro", Helvetica, sans-serif;
-  color: #fff;
-  text-align: center;
-  background-color: #2a76dd;
-  margin: 0;
-  padding: 20px 0; }
+  color: #2a76dd;
+  text-align: center; }
 
 /*********************************************
  * GLOBAL STYLES
