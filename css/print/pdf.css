@@ -180,7 +180,8 @@ ul, ol, div, p {
 /* Bring static to first slide */
 .reveal .static {
     top: 620px;
+    left:20px;
     position: absolute;
     height: 100px;
-    width: 96%;
+    width: 94%;
 }
