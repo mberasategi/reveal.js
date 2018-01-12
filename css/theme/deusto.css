@@ -65,9 +65,9 @@ section#title-slide {
 
 /* Improve blockquotes */
 .reveal blockquote {
-  box-shadow: none;
+  box-shadow: none !important;
   border-left: solid 10px #eee;
-  padding-left: 25px;
+  padding-left: 25px !important;
   color: #666; }
 
 /*********************************************
