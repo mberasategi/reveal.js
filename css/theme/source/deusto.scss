@@ -34,7 +34,7 @@ $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 
 $heading1Size: 2.5em;
-$heading2Size: 1.6em;
+$heading2Size: 1.3em;
 $heading3Size: 1.3em;
 $heading4Size: 1.0em;
 
@@ -64,7 +64,7 @@ section#title-slide { text-align:center; }
 /* Center images */
 .reveal section img { border:none !important; box-shadow:none !important; }
 .reveal figure { text-align:center; }
-.reveal figure figcaption { font-size:.5em; font-weight:200; font-family: $headingFont; }
+.reveal figure figcaption { font-size:.5em; font-weight:200; font-family: $headingFont; margin-top:-1.25em; }
 
 // Theme template ------------------------------
 @import "../template/theme";
