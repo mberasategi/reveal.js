@@ -63,6 +63,13 @@ section#title-slide {
   font-family: "Frutiger LT Std", "Montserrat", "Source Sans Pro", Helvetica, sans-serif;
   margin-top: -1.25em; }
 
+/* Improve blockquotes */
+.reveal blockquote {
+  box-shadow: none;
+  border-left: solid 10px #eee;
+  padding-left: 25px;
+  color: #666; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
