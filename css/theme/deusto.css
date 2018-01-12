@@ -51,8 +51,8 @@ section#title-slide {
 
 /* Center images */
 .reveal section img {
-  border: none;
-  box-shadow: none; }
+  border: none !important;
+  box-shadow: none !important; }
 
 .reveal figure {
   text-align: center; }

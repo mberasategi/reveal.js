@@ -62,7 +62,7 @@ section#title-slide { text-align:center; }
 .reveal p.email { margin-top:0; font-size:.8em; }
 
 /* Center images */
-.reveal section img { border:none; box-shadow:none; }
+.reveal section img { border:none !important; box-shadow:none !important; }
 .reveal figure { text-align:center; }
 .reveal figure figcaption { font-size:.8em; font-weight:200; font-family: $headingFont; }
 
