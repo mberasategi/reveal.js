@@ -80,6 +80,9 @@ $endif$
 $for(author)$
   <p class="author">$author$</p>
 $endfor$
+$if(email)$
+  <p class="email">$email$</p>
+$endif$
 $if(date)$
   <p class="date">$date$</p>
 $endif$
