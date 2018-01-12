@@ -60,8 +60,7 @@ section#title-slide {
 .reveal figure figcaption {
   font-size: .5em;
   font-weight: 200;
-  font-family: "Frutiger LT Std", "Montserrat", "Source Sans Pro", Helvetica, sans-serif;
-  margin-top: -1.25em; }
+  font-family: "Frutiger LT Std", "Montserrat", "Source Sans Pro", Helvetica, sans-serif; }
 
 /* Improve blockquotes */
 .reveal blockquote {
