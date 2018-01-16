@@ -71,6 +71,13 @@ section#title-slide { text-align:center; }
 .reveal blockquote { box-shadow: none !important; border-left: solid 10px #eee; padding-left: 25px !important; color: #666;
 }
 
+/* Highlights */
+
+.reveal .slides section .fragment.highlight-green.visible { color:#116611; }
+.reveal .slides section .fragment.highlight-blue.visible { color:#2a76dd; }
+.reveal .slides section .fragment.highlight-red.visible { color:#801515; }
+.reveal .slides section .fragment.highlight-yellow.visible { color:#D9B400; }
+
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
