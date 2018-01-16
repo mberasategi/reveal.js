@@ -73,10 +73,10 @@ section#title-slide { text-align:center; }
 
 /* Highlights */
 
-.reveal .slides section .fragment.highlight-green.visible { color:#069317; }
-.reveal .slides section .fragment.highlight-blue.visible { color:#2a76dd; }
-.reveal .slides section .fragment.highlight-red.visible { color:#BE0808; }
-.reveal .slides section .fragment.highlight-yellow.visible { color:#D9B400; }
+.reveal .slides section .fragment.highlight-green.visible, .reveal .slides section .fragment.highlight-current-green.current-fragment { color:#069317; }
+.reveal .slides section .fragment.highlight-blue.visible, .reveal .slides section .fragment.highlight-current-blue.current-fragment { color:#2a76dd; }
+.reveal .slides section .fragment.highlight-red.visible, .reveal .slides section .fragment.highlight-current-red.current-fragment { color:#BE0808; }
+.reveal .slides section .fragment.highlight-yellow.visible,, .reveal .slides section .fragment.highlight-current-yellow.current-fragment { color:#D9B400; }
 
 // Theme template ------------------------------
 @import "../template/theme";
