@@ -25,8 +25,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .static .bottomL {
   position: absolute;
   bottom: 0;
-  font-size: .3em;
-  font-style: italic;
+  font-size: .5em;
   color: #666;
   font-family: "Frutiger LT Std", "Montserrat", "Source Sans Pro", Helvetica, sans-serif;
   font-weight: 200; }
@@ -36,8 +35,9 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   bottom: 0;
   right: 0; }
 
-.static .title {
-  font-size: 1.25em; }
+.static .author {
+  font-size: .5em;
+  font-style: italic; }
 
 section#title-slide {
   text-align: center; }

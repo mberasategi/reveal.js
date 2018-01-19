@@ -52,9 +52,9 @@ section.has-dark-background {
 
 .reveal .slides { text-align:left; }
 
-.static .bottomL { position:absolute;bottom:0;font-size:.3em;font-style:italic;color:#666;font-family:$headingFont;font-weight:200; }
+.static .bottomL { position:absolute;bottom:0;font-size:.5em;color:#666;font-family:$headingFont;font-weight:200; }
 .static .bottomR { position:absolute;bottom:0;right:0; }
-.static .title { font-size:1.25em; }
+.static .author { font-size:.5em;font-style:italic; }
 
 section#title-slide { text-align:center; }
 
