@@ -64,11 +64,17 @@ $endfor$
 
   <div class="reveal">
     <div class="slides">
+      
       <div class="static">
-        <div class="bottomL"><img src="$revealjs-url$/logo-deusto.png" alt="Universidad de Deusto" /></div>
-        $for(author)$
-          <div class="bottomR">$author$</div>
-        $endfor$
+        <div class="bottomR"><img src="$revealjs-url$/logo-deusto.png" alt="Universidad de Deusto" /></div>
+        <div class="bottomL">
+          $for(author)$
+            <div class="author">$author$</div>
+          $endfor$
+          $if(title)$
+            <div class="title">$title$</div>
+          $endif$
+        </div>
       </div>
       
 $if(title)$
