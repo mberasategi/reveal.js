@@ -58,8 +58,8 @@ section.has-dark-background {
 
 section#title-slide { text-align:center; }
 
-.reveal p.subtitle { font-family:$headingFont; color:$accentColor; }
-.reveal p.author { margin-bottom:0; }
+.reveal h1.subtitle, .reveal p.subtitle { font-family:$headingFont; color:$accentColor; }
+.reveal h2.author, .reveal p.author { margin-bottom:0; }
 .reveal p.email { margin-top:0; font-size:.8em; }
 
 /* Center images */
