@@ -72,6 +72,16 @@ section#title-slide {
   border-left: solid 10px #eee;
   padding-left: 25px !important;
   color: #666; }
+  .reveal blockquote p {
+    margin: 0; }
+
+/* Utility classes */
+.highlighted {
+  background-color: #FEF595;
+  padding: 0 .25em !important; }
+
+.center {
+  text-align: center; }
 
 /*********************************************
  * GLOBAL STYLES
