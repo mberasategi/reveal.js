@@ -76,6 +76,10 @@ section#title-slide { text-align:center; }
 
 .highlighted { background-color: #FEF595; padding: 0 .25em !important; }
 .center { text-align: center; }
+h1:empty, h2:empty, h3:empty { display:none; } // Hides empty titles used to give attributes to the slide
+p.small, div.small, .small p, .small li { font-size:.9em; }
+p.smaller, div.smaller, .smaller p, .smaller li { font-size: .8em; }
+p.smallest, div.smallest, .smallest p, .smallest li { font-size:.6em; }
 
 // Theme template ------------------------------
 @import "../template/theme";
