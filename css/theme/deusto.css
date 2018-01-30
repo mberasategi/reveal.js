@@ -54,7 +54,7 @@ section#title-slide {
   font-size: .8em; }
 
 .reveal code {
-  font-family: Monaco, Inconsolata, monospace;
+  font-family: Monaco, Inconsolata, monospace !important;
   font-size: .8em; }
 
 /* Center images */
