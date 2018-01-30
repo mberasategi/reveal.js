@@ -62,6 +62,8 @@ section#title-slide { text-align:center; }
 .reveal h2.author, .reveal p.author { margin-bottom:0; }
 .reveal p.email { margin-top:0; font-size:.8em; }
 
+.reveal code { font-family: Monaco, Inconsolata, monospace; font-size:.8em; }
+
 /* Center images */
 .reveal section img { border:none !important; box-shadow:none !important; }
 .reveal figure { text-align:center; }

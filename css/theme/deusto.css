@@ -53,6 +53,10 @@ section#title-slide {
   margin-top: 0;
   font-size: .8em; }
 
+.reveal code {
+  font-family: Monaco, Inconsolata, monospace;
+  font-size: .8em; }
+
 /* Center images */
 .reveal section img {
   border: none !important;
