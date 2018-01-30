@@ -80,6 +80,7 @@ h1:empty, h2:empty, h3:empty { display:none; } // Hides empty titles used to giv
 p.small, div.small, span.small .small p, .small ul, .small ol { font-size:.9em; }
 p.smaller, div.smaller, span.smaller, .smaller p, .smaller ul, .smaller ol { font-size: .8em; }
 p.smallest, div.smallest, span.smallest, .smallest p, .smallest ul, .smallest ol { font-size:.6em; }
+.reveal ul ul, .reveal ul ol, .reveal ol ol, .reveal ol ul { font-size:100% !important; } // correct incremental sizes for nested lists
 
 // Theme template ------------------------------
 @import "../template/theme";

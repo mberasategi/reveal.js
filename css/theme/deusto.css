@@ -95,6 +95,9 @@ p.smaller, div.smaller, span.smaller, .smaller p, .smaller ul, .smaller ol {
 p.smallest, div.smallest, span.smallest, .smallest p, .smallest ul, .smallest ol {
   font-size: .6em; }
 
+.reveal ul ul, .reveal ul ol, .reveal ol ol, .reveal ol ul {
+  font-size: 100% !important; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
