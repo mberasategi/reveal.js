@@ -86,13 +86,13 @@ section#title-slide {
 h1:empty, h2:empty, h3:empty {
   display: none; }
 
-p.small, div.small, .small p, .small li {
+p.small, div.small, span.small .small p, .small ul, .small ol {
   font-size: .9em; }
 
-p.smaller, div.smaller, .smaller p, .smaller li {
+p.smaller, div.smaller, span.smaller, .smaller p, .smaller ul, .smaller ol {
   font-size: .8em; }
 
-p.smallest, div.smallest, .smallest p, .smallest li {
+p.smallest, div.smallest, span.smallest, .smallest p, .smallest ul, .smallest ol {
   font-size: .6em; }
 
 /*********************************************
