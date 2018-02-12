@@ -31,6 +31,10 @@ $if(highlighting-css)$
 $highlighting-css$
   </style>
 $endif$
+$if(syntax-highlighting)$
+<!-- For syntax highlighting -->
+<link rel="stylesheet" href="$revealjs-url$/lib/css/zenburn.css"/>
+$endif$
 $if(theme)$
   <link rel="stylesheet" href="$revealjs-url$/css/theme/$theme$.css" id="theme">
 $else$
@@ -275,6 +279,9 @@ $if(notes-server)$
 $endif$
 $if(mathjax)$
           { src: '$revealjs-url$/plugin/math/math.js', async: true },
+$endif$
+$if(syntax-highlighting)$
+          { src: '$revealjs-url$/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad();}},
 $endif$
           { src: '$revealjs-url$/plugin/notes/notes.js', async: true }
         ]
