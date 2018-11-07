@@ -3,7 +3,10 @@
  *
  * By Miren Berasategi, http://d.mberasategi.com
  */
+
 @import url(../../../custom.css);
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,700|PT+Serif:400,400i,700,700i|Roboto:400,400i,700,700i');
 @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff; }
@@ -28,7 +31,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   bottom: 0;
   font-size: .5em;
   color: #666;
-  font-family: "Frutiger LT Std", "Montserrat", "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Roboto", /*"Frutiger LT Std",*/ "Montserrat", "Source Sans Pro", Helvetica, sans-serif;
   font-weight: 200; }
 
 .static .bottomR {
@@ -44,7 +47,7 @@ section#title-slide {
   text-align: center; }
 
 .reveal h1.subtitle, .reveal p.subtitle {
-  font-family: "Frutiger LT Std", "Montserrat", "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Roboto", /*"Frutiger LT Std",*/ "Montserrat", "Source Sans Pro", Helvetica, sans-serif;
   color: #2a76dd; }
 
 .reveal h2.author, .reveal p.author {
@@ -70,7 +73,7 @@ section#title-slide {
 .reveal figure figcaption {
   font-size: .5em;
   font-weight: 200;
-  font-family: "Frutiger LT Std", "Montserrat", "Source Sans Pro", Helvetica, sans-serif; }
+  font-family: "Roboto", /*"Frutiger LT Std",*/ "Montserrat", "Source Sans Pro", Helvetica, sans-serif; }
 
 /* Improve blockquotes */
 .reveal blockquote {
@@ -143,7 +146,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #2a76dd;
-  font-family: "Frutiger LT Std", "Montserrat", "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Roboto", /*"Frutiger LT Std",*/ "Montserrat", "Source Sans Pro", Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
