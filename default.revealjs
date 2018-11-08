@@ -285,8 +285,10 @@ $endif$
 $if(syntax-highlighting)$
           { src: '$revealjs-url$/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad();}},
 $endif$
-          { src: '$revealjs-url$/plugin/notes/notes.js', async: true },
-          { src: 'plugin/menu/menu.js' }
+$if(menu)$
+          { src: '$revealjs-url$/plugin/menu/menu.js' },
+$endif$
+          { src: '$revealjs-url$/plugin/notes/notes.js', async: true }
         ]
       });
     </script>
