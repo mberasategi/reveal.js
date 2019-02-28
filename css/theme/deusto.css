@@ -103,6 +103,19 @@ p.smallest, div.smallest, span.smallest, .smallest p, .smallest ul, .smallest ol
 .reveal ul ul, .reveal ul ol, .reveal ol ol, .reveal ol ul {
   font-size: 100% !important; }
 
+/* Highlighted fragments */
+
+.reveal .slides section .fragment.highlighted {
+  opacity: 1;
+  visibility: inherit;
+  padding: 0 .25em !important; 
+  background-color:transparent !important;
+}
+
+.reveal .slides section .fragment.highlighted.visible {
+  background-color: #FEF595 !important;
+}
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
