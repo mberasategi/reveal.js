@@ -95,6 +95,9 @@ $endfor$
 $if(email)$
   <p class="email">$email$</p>
 $endif$
+$if(department)$
+  <p class="dpt">$department$</p>
+$endif$
 $if(date)$
   <p class="date">$date$</p>
 $endif$

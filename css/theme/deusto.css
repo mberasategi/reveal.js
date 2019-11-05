@@ -89,8 +89,30 @@ section#title-slide {
   background-color: #FEF595;
   padding: 0 .25em !important; }
 
+.reveal .slides section .fragment.highlighted {
+  opacity: 1;
+  visibility: inherit;
+  padding: 0 .25em !important; 
+  background-color:transparent !important;
+}
+
+.reveal .slides section .fragment.highlighted.visible {
+  background-color: #FEF595 !important;
+}
+
 .center {
   text-align: center; }
+
+.right {
+  text-align:right;
+}
+
+.clear {
+  clear:both;
+}
+
+.reveal .mono { font-family:'Fira Mono', monospace !important; font-size:.8em; }
+.reveal .sans { font-family:Roboto, Montserrat, sans-serif !important; }
 
 h1:empty, h2:empty, h3:empty {
   display: none; }
@@ -102,10 +124,22 @@ p.smaller, div.smaller, span.smaller, .smaller p, .smaller ul, .smaller ol {
   font-size: .8em; }
 
 p.smallest, div.smallest, span.smallest, .smallest p, .smallest ul, .smallest ol {
-  font-size: .6em; }
+  font-size: .66em; }
 
 .reveal ul ul, .reveal ul ol, .reveal ol ol, .reveal ol ul {
   font-size: 100% !important; }
+
+.reveal div.box {
+    background-color:#eee; padding:0 .25em .25em;
+  }
+
+/* Columns */
+
+.col-left, .col-right { width:49%; }
+
+.col-left { float:left; margin-right:.5em; }
+.col-right { float:right; margin-left:.5em; }
+
 
 /*********************************************
  * GLOBAL STYLES
