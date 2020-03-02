@@ -113,12 +113,13 @@ section#title-slide {
   background-color: #FEF595 !important;
 }
 
-.center {
+.reveal .center {
   text-align: center; }
 
-.right {
+.reveal .right {
   text-align:right;
 }
+img.right { float:right; margin-left:.3em; }
 
 .clear {
   clear:both;
@@ -143,7 +144,7 @@ p.smallest, div.smallest, span.smallest, .smallest p, .smallest ul, .smallest ol
   font-size: 100% !important; }
 
 .reveal div.box {
-    background-color:#eee; padding:0 .25em .25em;
+    background-color:#eee; padding:.25em; border-radius:.3em;
   }
 
 /* Columns */
