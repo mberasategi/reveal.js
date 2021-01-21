@@ -75,6 +75,8 @@ $endfor$
   <div class="line bottom">
     $if(foot_right)$
       <div class="right">$foot_right$</div>
+    $else$
+      <div class="right">$subtitle$</div>
     $endif$
     $if(foot_left)$
       <div class="left">$foot_left$</div>
