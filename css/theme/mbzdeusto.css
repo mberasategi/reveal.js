@@ -259,10 +259,14 @@ body {
   list-style-type: decimal; }
 
 .reveal ul {
-  list-style-type: disc; }
+  list-style-type: none; }
 
-.reveal ul ul {
-  list-style-type: square; }
+.reveal ul li::before { content:"→  "; margin-left:-1.2em; }
+
+.reveal ul ul, .reveal ol ul {
+  list-style-type: none; }
+
+.reveal ul ul li::before, .reveal ol ul li::before { content:"–  "; margin-left:-.8em; }
 
 .reveal ul ul ul {
   list-style-type: circle; }
