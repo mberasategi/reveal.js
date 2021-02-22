@@ -375,6 +375,9 @@ body {
 
 .reveal .highlighted { background-color: var(--nord-yellow); filter:brightness(1.2); padding:0 .3em; }
 
+.reveal .box { background-color:var(--light-gray2); padding:.6em 1.2em; border-radius: .3em; }
+.reveal hr { border:none; border-bottom: solid 3px var(--dark-gray1); opacity:.3; }
+
 /*********************************************
  * LINKS
  *********************************************/
