@@ -130,6 +130,8 @@
   --light-gray3: #d8dee9;
   --light-gray2: #e5e9f0;
   --light-gray1: #eceff4;
+  --serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --sans-serif: 'Inter', Helvetica, Arial, sans-serif;
   }
 
 /*********************************************
@@ -140,7 +142,7 @@ body {
   background-color: #fff; }
 
 .reveal {
-  font-family: 'Inter', Helvetica, Arial, sans-serif;
+  font-family: var(--sans-serif);
   font-size: 32px;
   font-weight: normal;
   color: #363636; }
@@ -177,14 +179,17 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #141414;
-  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  font-family: var(--serif);
   font-weight: 600;
   letter-spacing: normal;
   text-shadow: none;
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2em; }
+  font-size: 2em; 
+  color: var(--main-color, #2a76dd);
+  text-shadow: none; 
+  line-height: .9em; }
 
 .reveal h2 {
   font-size: 1.8em; }
@@ -195,14 +200,18 @@ body {
 .reveal h4 {
   font-size: 1.2em; }
 
-.reveal h1 {
-  color: var(--main-color, #2a76dd);
-  text-shadow: none; }
+.reveal h6 {
+  font-family: var(--sans-serif);
+  text-transform: uppercase;
+  font-size: .9em;
+  letter-spacing: .1em;
+  margin-top:40px;
+}
 
 .reveal #title-slide h1 { color: var(--main-color, #2a76dd); font-size:3em; }
 
 .reveal #title-slide .subtitle { 
-  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; 
+  font-family: var(--serif); 
   font-size:1.2em; 
   margin-top:-.6em; }
 
@@ -216,7 +225,7 @@ body {
 
 .reveal .pretitle { 
   display:block; 
-  font-family: 'Inter', Helvetica, Arial, sans-serif;
+  font-family: var(--sans-serif);
   font-size:.3em !important; 
   text-transform:uppercase;
   letter-spacing: .3em;
