@@ -227,9 +227,11 @@ body {
   display:block; 
   font-family: var(--sans-serif);
   font-size:.3em !important; 
+  font-weight: 300;
   text-transform:uppercase;
   letter-spacing: .3em;
-  margin-bottom:-.6em !important; }
+  margin-bottom:-.6em !important; 
+  line-height:1.2em; }
 
 
 /*********************************************
